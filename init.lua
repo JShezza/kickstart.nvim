@@ -823,8 +823,8 @@ require('lazy').setup({
       -- }
 
       require("onedarkpro").setup{
-          styles = {
-            comments = {italic = false },
+         highlights = {
+            Comment = { italic = false },
           },
         }
 
